@@ -59,7 +59,21 @@ do{
 			
 			printf("O quadrado de %.1f e: %.1f", num, quad);
 			break;
-		}
+			}
+		case 5 : {
+			float num, quinta;
+			
+			printf("\nInforme um numero real para ver a sua quinta parte: ");
+			fflush(stdin);
+			scanf("%f", &num);
+			
+			quinta = num / 5;
+			
+			printf("\nA quinta parte de %.1f e: %.1f.", num, quinta);
+			
+			break;
+			}
+			
 	}
 }
 	while(opt != 0);
