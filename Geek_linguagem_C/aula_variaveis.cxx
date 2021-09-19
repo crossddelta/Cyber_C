@@ -7,7 +7,7 @@ int main()
 /*Declarando e inicializando variaveis*/
 int idade, ano = 0;
 
-/*Funcao para imprimir algo no console*/
+/*Funcão para imprimir algo no console*/
 printf("Qual a sua idade?\n");
 
 /*Funcao para receber dados do teclado*/
