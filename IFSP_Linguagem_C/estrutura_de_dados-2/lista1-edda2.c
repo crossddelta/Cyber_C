@@ -2,7 +2,7 @@
 #include <locale.h>
 #include <stdlib.h>
 
-/*Protótipos das funções*/
+/*ProtÃ³tipos das funÃ§Ãµes*/
 int main();
 void ex_um(void);
 void ex_dois(void);
@@ -25,32 +25,32 @@ int main()
 do
 {
 	printf("====================================================================================================\n");
-	printf("				1ª LISTA DE EXERCÍCIOS - REVISÃO			\n\n");
+	printf("				1Âª LISTA DE EXERCÃCIOS - REVISÃƒO			\n\n");
 	printf("====================================================================================================\n\n");
-	printf("1- Desenvolver um programa para ler um número inteiro e exibir se é par ou ímpar.\n\n");
-	printf("2- Desenvolver um programa para ler um número inteiro e exibir se é múltiplo de três ou múltiplo de cinco.\n\n");
-	printf("3- Desenvolver um programa para ler um número inteiro e exibir se é divisível por sete ou três.\n\n");
-	printf("4- Desenvolver um programa para ler três números quaisquer e informar qual deles é o maior número.\n\n");
+	printf("1- Desenvolver um programa para ler um nÃºmero inteiro e exibir se Ã© par ou Ã­mpar.\n\n");
+	printf("2- Desenvolver um programa para ler um nÃºmero inteiro e exibir se Ã© mÃºltiplo de trÃªs ou mÃºltiplo de cinco.\n\n");
+	printf("3- Desenvolver um programa para ler um nÃºmero inteiro e exibir se Ã© divisÃ­vel por sete ou trÃªs.\n\n");
+	printf("4- Desenvolver um programa para ler trÃªs nÃºmeros quaisquer e informar qual deles Ã© o maior nÃºmero.\n\n");
 	printf("5- Escreva um programa que, dadas duas datas, determine qual delas ocorreu cronologicamente antes "
-			"em relação a outra. Cada data é composta de três números inteiros, um representando o ano, outro "
-			"o mês e outro o dia. Neste exercício você deve utilizar uma estrutura para armazenar e comparar "
-			"as duas datas, cada data com três campos descritos acima.\n\n");
-	printf("6- Faça um programa que receba uma data de validade e a data atual e indique se o produto já está "
-			"vencido ou não. (obs: assuma que o usuário informará datas válidas). Novamente, você deverá utilizar "
+			"em relaÃ§Ã£o aÂ outra. Cada data Ã© composta de trÃªs nÃºmeros inteiros, um representando o ano, outro "
+			"o mÃªs e outro o dia. Neste exercÃ­cio vocÃª deve utilizar uma estrutura para armazenar e comparar "
+			"as duas datas, cada data com trÃªs campos descritos acima.\n\n");
+	printf("6- FaÃ§a um programa que receba uma data de validade e a data atual e indique se o produto jÃ¡ estÃ¡ "
+			"vencido ou nÃ£o. (obs: assuma que o usuÃ¡rio informarÃ¡ datas vÃ¡lidas). Novamente, vocÃª deverÃ¡ utilizar "
 			"estrutura (struct) para armazenar as datas.\n\n");
-	printf("7- Desenvolver um programa para ler três números quaisquer e informar qual deles é o menor número e "
-			"qual deles é o maior número.\n\n");
+	printf("7- Desenvolver um programa para ler trÃªs nÃºmeros quaisquer e informar qual deles Ã© o menor nÃºmero e "
+			"qual deles Ã© o maior nÃºmero.\n\n");
 	printf("8- Desenvolver um programa para ler o nome de um produto e o valor de custo e exibir o valor de venda "
-			"do produto. O valor de venda é o seu valor de custo acrescido em 30%%.\n\n");
-	printf("9- Escreva um programa que, dado um número em segundos, converta para dias, horas, minutos e segundos. "
+			"do produto. O valor de venda Ã© o seu valor de custo acrescido em 30%%.\n\n");
+	printf("9- Escreva um programa que, dado um nÃºmero em segundos, converta para dias, horas, minutos e segundos. "
 			"Por exemplo, 7322 segundos correspondem a 0 dias, 2 horas, 2 minutos e 2 segundos.\n\n");
-	printf("10- Desenvolver um programa para ler três números e apresentar como valor final o resultado da soma "
-			"dos quadrados dos três números lidos.\n\n");
-	printf("11- Faça um programa para ler 15 valores em um vetor. Em seguida, determine o maior e o menor elemento"
-			"lido. Faça uso de uma função chamada maior, que deverá retornar o maior elemento do vetor e outra "
-			"função chamada menor, que deverá retornar o menor elemento do vetor.\n\n");
+	printf("10- Desenvolver um programa para ler trÃªs nÃºmeros e apresentar como valor final o resultado da soma "
+			"dos quadrados dos trÃªs nÃºmeros lidos.\n\n");
+	printf("11- FaÃ§a um programa para ler 15 valores em um vetor. Em seguida, determine o maior e o menor elemento"
+			"lido. FaÃ§a uso de uma funÃ§Ã£o chamada maior, que deverÃ¡ retornar o maior elemento do vetor e outra "
+			"funÃ§Ã£o chamada menor, que deverÃ¡ retornar o menor elemento do vetor.\n\n");
 	printf("0- Sair do programa.\n\n");
-	printf("\nDigite o número do exercício que deseja visualizar: ");
+	printf("\nDigite o nÃºmero do exercÃ­cio que deseja visualizar: ");
 	fflush(stdin);
 	scanf("%d", &opc);
 
@@ -58,31 +58,31 @@ do
 	{
 		case 1 : 
 			{
-				system("cls");
-				ex_um(); 
-				getch();
-				break;
+			system("cls");
+			ex_um(); 
+			getch();
+			break;
 			}
 		case 2 :
 			{
-				system("cls");
-				ex_dois();
-				getch();
-				break;
+			system("cls");
+			ex_dois();
+			getch();
+			break;
 			}
 		case 3 :
 			{
-				system("cls");
-				ex_tres();
-				getch();
-				break;
+			system("cls");
+			ex_tres();
+			getch();
+			break;
 			}
 		case 4 :
 			{
-				system("cls");
-				ex_quat();
-				getch();
-				break;
+			system("cls");
+			ex_quat();
+			getch();
+			break;
 			}
 		case 5 :
 			{
@@ -136,7 +136,7 @@ do
 		default :
 			{
 			system("cls");
-			printf("Opção inválida, tente novamente!");
+			printf("OpÃ§Ã£o invÃ¡lida, tente novamente!");
 			getch();
 			break;
 			}
@@ -157,12 +157,12 @@ void ex_um(void)
 {
 	int num;
 
-	printf("Informe um valor para verificar se é par ou ímpar: ");
+	printf("Informe um valor para verificar se Ã© par ou Ã­mpar: ");
 	fflush(stdin);
 	scanf("%d", &num);
 
-	if(num % 2 == 0) printf("O número %d informado é par.", num);
-	else printf("O número %d informado é ímpar.", num);
+	if(num % 2 == 0) printf("O nÃºmero %d informado Ã© par.", num);
+	else printf("O nÃºmero %d informado Ã© Ã­mpar.", num);
 	
 	return;
 }
@@ -171,23 +171,23 @@ void ex_dois(void)
 {
 	int num;
 	
-	printf("Informe um valor para saber se é múltiplo de 3 ou múltiplo de 5: ");
+	printf("Informe um valor para saber se Ã© mÃºltiplo de 3 ou mÃºltiplo de 5: ");
 	fflush(stdin);
 	scanf("%d", &num);
 	
 	if(num % 3 == 0)
 		{
-			printf("O número %d é múltiplo de 3.\n", num);
+			printf("O nÃºmero %d Ã© mÃºltiplo de 3.\n", num);
 			if(num % 5 == 0) 
 				{
-					printf("Além disso, o valor também é múltiplo de 5.\n", num);
+					printf("AlÃ©m disso, o valor tambÃ©m Ã© mÃºltiplo de 5.\n", num);
 				}
 		}
 	else if(num % 5 == 0)
 		{
-			printf("O número %d é múltiplo de 5.\n", num);
+			printf("O nÃºmero %d Ã© mÃºltiplo de 5.\n", num);
 		}
-	else printf("O número informado não é múltiplo de 3, nem de 5.");
+	else printf("O nÃºmero informado nÃ£o Ã© mÃºltiplo de 3, nem de 5.");
 	
 	return;
 }
@@ -196,24 +196,24 @@ void ex_tres(void)
 {
 	int num;
 	
-	printf("Informe um valor para saber se é divisível por 7 ou por 3: ");
+	printf("Informe um valor para saber se Ã© divisÃ­vel por 7 ou por 3: ");
 	fflush(stdin);
 	scanf("%d", &num);
 	
 	if(num % 3 == 0)
 	{
-		printf("\nO número %d é divisível por 3.", num);
+		printf("\nO nÃºmero %d Ã© divisÃ­vel por 3.", num);
 		
 		if(num % 7 == 0)
 		{
-			printf("\nAlém disso, esse número também é divisível por 7.");
+			printf("\nAlÃ©m disso, esse nÃºmero tambÃ©m Ã© divisÃ­vel por 7.");
 		}
 	}
 	else if(num % 7 == 0)
 	{
-		printf("\nO número %d é divisível por 7.", num);
+		printf("\nO nÃºmero %d Ã© divisÃ­vel por 7.", num);
 	}
-	else printf("\nO valor informado não é divisível por 3, nem por 7.");
+	else printf("\nO valor informado nÃ£o Ã© divisÃ­vel por 3, nem por 7.");
 	
 	return;
 }
@@ -222,7 +222,7 @@ void ex_quat(void)
 {
 	int num, maior = 0;
 	
-	printf("Por favor, informe três valores.\n");
+	printf("Por favor, informe trÃªs valores.\n");
 
 	for(int i = 0; i < 3; i++)
 	{
@@ -258,7 +258,7 @@ void ex_cinco(void)
 	fflush(stdin);
 	scanf("%d", &data.dia_atual);
 	
-	printf("\nInforme o mês atual: ");
+	printf("\nInforme o mÃªs atual: ");
 	fflush(stdin);
 	scanf("%d", &data.mes_atual);
 	
@@ -266,14 +266,14 @@ void ex_cinco(void)
 	fflush(stdin);
 	scanf("%d", &data.ano_atual);
 	
-	printf("\n\nA data atual é: %02d/%02d/%04d\n\n", data.dia_atual, data.mes_atual, data.ano_atual);
-	printf("\nAgora, informe abaixo uma data qualquer, para compará-la à data atual. ");
+	printf("\n\nA data atual Ã©: %02d/%02d/%04d\n\n", data.dia_atual, data.mes_atual, data.ano_atual);
+	printf("\nAgora, informe abaixo uma data qualquer, para comparÃ¡-la Ã  data atual. ");
 	
 	printf("\n\nInforme um dia: ");
 	fflush(stdin);
 	scanf("%d", &data.dia);
 	
-	printf("\nInforme um mês: ");
+	printf("\nInforme um mÃªs: ");
 	fflush(stdin);
 	scanf("%d", &data.mes);
 	
@@ -284,18 +284,18 @@ void ex_cinco(void)
 	printf("\n\nA data informada foi: %02d/%02d/%04d\n\n", data.dia, data.mes, data.ano);
 	if(data.ano > data.ano_atual)
 	{
-		printf("\nA data informada está no futuro, se comparada à data atual.");
+		printf("\nA data informada estÃ¡ no futuro, se comparada Ã  data atual.");
 	}
 	else if(data.ano == data.ano_atual && data.mes > data.mes_atual)
 	{
-		printf("\nA data informada está no futuro, se comparada à data atual.");		
+		printf("\nA data informada estÃ¡ no futuro, se comparada Ã  data atual.");		
 	}
 	else if(data.ano == data.ano_atual && data.mes == data.mes_atual && data.dia > data.dia_atual)
 	{
-		printf("\nA data informada está no futuro, se comparada à data atual.");
+		printf("\nA data informada estÃ¡ no futuro, se comparada Ã  data atual.");
 	}
 	else
-		printf("\nA data informada está no passado, se comparada à data atual.");
+		printf("\nA data informada estÃ¡ no passado, se comparada Ã  data atual.");
 		
 	return;
 }
@@ -320,7 +320,7 @@ void ex_seis(void)
 	fflush(stdin);
 	scanf("%d", &data.dia_atual);
 	
-	printf("\nInforme o mês atual: ");
+	printf("\nInforme o mÃªs atual: ");
 	fflush(stdin);
 	scanf("%d", &data.mes_atual);
 	
@@ -328,14 +328,14 @@ void ex_seis(void)
 	fflush(stdin);
 	scanf("%d", &data.ano_atual);
 	
-	printf("\n\nA data atual é: %02d/%02d/%04d\n\n", data.dia_atual, data.mes_atual, data.ano_atual);
+	printf("\n\nA data atual Ã©: %02d/%02d/%04d\n\n", data.dia_atual, data.mes_atual, data.ano_atual);
 	printf("\nAgora, informe abaixo a data de validade do produto. ");
 	
 	printf("\n\nInforme o dia: ");
 	fflush(stdin);
 	scanf("%d", &data.dia);
 	
-	printf("\nInforme o mês: ");
+	printf("\nInforme o mÃªs: ");
 	fflush(stdin);
 	scanf("%d", &data.mes);
 	
@@ -346,18 +346,18 @@ void ex_seis(void)
 	printf("\n\nA data informada foi: %02d/%02d/%04d\n\n", data.dia, data.mes, data.ano);
 	if(data.ano > data.ano_atual)
 	{
-		printf("\nO produto está dentro da validade, portanto pode ser consumido.");
+		printf("\nO produto estÃ¡ dentro da validade, portanto pode ser consumido.");
 	}
 	else if(data.ano == data.ano_atual && data.mes > data.mes_atual)
 	{
-		printf("\nO produto está dentro da validade, portanto pode ser consumido.");		
+		printf("\nO produto estÃ¡ dentro da validade, portanto pode ser consumido.");		
 	}
 	else if(data.ano == data.ano_atual && data.mes == data.mes_atual && data.dia > data.dia_atual)
 	{
-		printf("\nO produto está dentro da validade, portanto pode ser consumido.");
+		printf("\nO produto estÃ¡ dentro da validade, portanto pode ser consumido.");
 	}
 	else
-		printf("\nO produto ultrapassou a data de validade, já não é mais próprio para o consumo.\n\nDescarte-o adequadamente.");
+		printf("\nO produto ultrapassou a data de validade, jÃ¡ nÃ£o Ã© mais prÃ³prio para o consumo.\n\nDescarte-o adequadamente.");
 	
 	return;
 }
@@ -366,7 +366,7 @@ void ex_sete(void)
 {
 	float num, maior = 0, menor = 999999;
 	
-	printf("Por favor, informe três valores.\n");
+	printf("Por favor, informe trÃªs valores.\n");
 
 	for(int i = 0; i < 3; i++)
 	{
@@ -400,7 +400,7 @@ void ex_oito(void)
 	
 	valor_venda = valor_custo + (valor_custo * 0.3);
 	
-	printf("\nO valor de venda recomendado para o produto [%s] é de: R$%.2f", nome, valor_venda);
+	printf("\nO valor de venda recomendado para o produto [%s] Ã© de: R$%.2f", nome, valor_venda);
 	
 	return;
 }
@@ -417,7 +417,7 @@ void ex_nove(void)
 	minutos = (valor % 3600) / 60;
 	segundos = (valor % 3600) % 60;
 	
-	printf("\n%d segundos equivalem à:\n%02d horas\n%02d minutos\n%02d segundos", valor, horas, minutos, segundos);
+	printf("\n%d segundos equivalem Ã :\n%02d horas\n%02d minutos\n%02d segundos", valor, horas, minutos, segundos);
 	return;
 }
 
@@ -425,7 +425,7 @@ void ex_dez(void)
 {
 	int num[3], quad[3], soma;
 	
-	printf("Informe três valores: \n");
+	printf("Informe trÃªs valores: \n");
 	for(int i = 0; i < 3; i++)
 	{
 		printf("\nValor %d/3: ", i+1);
@@ -440,7 +440,7 @@ void ex_dez(void)
 		soma = soma + quad[j];
 	}
 	
-	printf("\nA soma do quadrado dos três valores informados é: %d", soma);
+	printf("\nA soma do quadrado dos trÃªs valores informados Ã©: %d", soma);
 	
 	return;
 }
