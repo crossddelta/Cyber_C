@@ -12,8 +12,13 @@ int main(int argc, char *argv[]){
 	int i;
 	char ping[26], host[3];
 
+	printf("===================================================\n");
+	printf("+                  C W E E P E R                  +\n");
+	printf("===================================================\n");
+
 #ifdef _WIN32
-	if(argc < 1){
+	if(argv[1] == NULL){
+		printf("Informe uma rede IP para encontrar os hosts ativos.\n");
 		printf("Modo de uso: ./Cweeper 192.168.0\n");
 	}
 	else{
@@ -26,7 +31,8 @@ int main(int argc, char *argv[]){
 #endif
 
 #ifdef linux
-	if(argc < 1){
+	if(argv[1] == NULL){
+		printf("Informe uma rede IP para encontrar os hosts ativos.\n");
 		printf("Modo de uso: ./Cweeper 192.168.0\n");
 	}
 	else{
